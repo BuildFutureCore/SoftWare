@@ -1,7 +1,7 @@
-Contributing to STRMS Core
+Contributing to BuildFuture Core
 ============================
 
-The STRMS Core project operates an open contributor model where anyone is
+The BuildFuture Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -47,9 +47,6 @@ example: `refs #1234` or `fixes #4321`. Using the `fixes` or `closes` keywords
 will cause the corresponding issue to be closed when the pull request is merged.
 
 Commit messages should never contain any `@` mentions.
-
-Please refer to the [Git manual](https://git-scm.com/doc) for more information
-about Git.
 
   - Push changes to your fork
   - Create pull request
@@ -203,10 +200,10 @@ workload on reviewing.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the STRMS Core project, and is not to be
-confused with overall STRMS Network Protocol consensus changes.
+The following applies to code changes to the BuildFuture Core project, and is not to be
+confused with overall BuildFuture Network Protocol consensus changes.
 
-Whether a pull request is merged into STRMS Core rests with the project merge
+Whether a pull request is merged into BuildFuture Core rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -220,7 +217,7 @@ In general, all pull requests must:
   - Be well peer reviewed;
   - follow code style guidelines;
 
-Patches that change STRMS consensus rules are considerably more involved than
+Patches that change BuildFuture consensus rules are considerably more involved than
 normal because they affect the entire ecosystem and so must be preceded by
 extensive discussions and clear detailing. While each case will be different,
 one should be prepared to expend more time and effort than for other kinds of
@@ -263,7 +260,7 @@ higher in terms of discussion and peer review requirements, keeping in mind that
 mistakes could be very costly to the wider community. This includes refactoring
 of consensus critical code.
 
-Where a patchset proposes to change the STRMS consensus, it must have been
+Where a patchset proposes to change the BuildFuture consensus, it must have been
 discussed extensively on the forums and Discord, be accompanied by a widely
 discussed Proposal and have a generally widely perceived technical consensus of being
 a worthwhile change based on the judgement of the maintainers.
@@ -303,7 +300,7 @@ about:
 Release Policy
 --------------
 
-The project leader is the release manager for each STRMS Core release.
+The project leader is the release manager for each BuildFuture Core release.
 
 Copyright
 ---------
